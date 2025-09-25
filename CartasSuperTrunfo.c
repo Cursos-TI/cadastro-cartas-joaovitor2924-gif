@@ -9,13 +9,32 @@ int main() {
     int populacao1,pontos1,populacao2,pontos2;
     float area1,pib1,area2,pib2;
 
-    printf("Desafio Super Trunfo!");
+    printf("Desafio Super Trunfo!\n");
 
-    printf("Digite o estado: ")
+    printf("Primeira carta\n");
+
+    printf("Digite o estado:");
     scanf("%s",&estado1);
 
-    print
+    printf("Digite o codigo da carta:");
+    scanf("%c",&codigo1);
 
+    printf("Digite o nome da cidade:");
+    scanf("%c",&cidade1);
+
+    printf("Digite o numero de habitantes:");
+    scanf("%d",&populacao1);
+
+    printf("Digite a área: ");
+    scanf("%f",&area1);
+
+    printf("Digite o PIB: ");
+    scanf("%f",&pib1);
+
+    printf("Digite o numero de pontos turisticos: ");
+    scanf("%d",&pontos1);
+
+    printf("Carta 1:\n");
 
 
 return 0;
