@@ -11,30 +11,72 @@ int main() {
 
     printf("Desafio Super Trunfo!\n");
 
-    printf("Primeira carta\n");
+    printf("\nPrimeira carta\n");
 
-    printf("Digite o estado:");
-    scanf("%s",&estado1);
+    printf("Digite o estado: ");
+    scanf("%c", &estado1);
 
-    printf("Digite o codigo da carta:");
-    scanf("%c",&codigo1);
+    printf("Digite o codigo da carta: ");
+    scanf("%s", &codigo1);
 
-    printf("Digite o nome da cidade:");
-    scanf("%c",&cidade1);
+    printf("Digite o nome da cidade: ");
+    scanf("%s", &cidade1);
 
-    printf("Digite o numero de habitantes:");
-    scanf("%d",&populacao1);
+    printf("Digite o numero de habitantes: ");
+    scanf(" %d", &populacao1);
 
     printf("Digite a área: ");
-    scanf("%f",&area1);
+    scanf(" %f", &area1);
 
     printf("Digite o PIB: ");
-    scanf("%f",&pib1);
+    scanf(" %f", &pib1);
 
     printf("Digite o numero de pontos turisticos: ");
-    scanf("%d",&pontos1);
+    scanf(" %i", &pontos1);
+
+    printf("Segunda carta!\n");
+
+    printf("Digite o estado: ");
+    scanf("%c", &estado2);
+
+    printf("Digite o codigo da carta: ");
+    scanf("%s", &codigo2);
+
+    printf("Digite o nome da cidade: ");
+    scanf("%s", &cidade2);
+
+    printf("Digite o numero de habitantes: ");
+    scanf(" %d", &populacao2);
+
+    printf("Digite a área: ");
+    scanf(" %f", &area2);
+
+    printf("Digite o PIB: ");
+    scanf(" %f", &pib2);
+
+    printf("Digite o numero de pontos turisticos: ");
+    scanf(" %i", &pontos2);
 
     printf("Carta 1:\n");
+    printf("Estado: %c\n", estado1);
+    printf("Codigo: %s\n", codigo1);
+    printf("Nome da Cidade: %s\n", cidade1);
+    printf("População: %d\n", populacao1);
+    printf("Área: %fkm² \n", area1);
+    printf("PIB: %f bilhões de reais \n", pib1);
+    printf("Número de Pontos Turísticos: %i\n", pontos1);
+
+    Printf("\n");
+
+    printf("Carta 2:\n");
+    printf("Estado: %c\n", estado2);
+    printf("Codigo: %s\n", codigo2);
+    printf("Nome da Cidade: %s\n", cidade2);
+    printf("População: %d\n", populacao2);
+    printf("Área: %fkm² \n", area2);
+    printf("PIB: %f bilhões de reais \n", pib2);
+    printf("Número de Pontos Turísticos: %i\n", pontos2);
+
 
 
 return 0;
